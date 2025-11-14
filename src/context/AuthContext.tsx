@@ -7,6 +7,7 @@ import { authAPI } from "@/lib/api";
 
 // Create a simplified type for auth responses
 interface AuthUser {
+  createdAt: string;
   _id: string;
   name: string;
   email: string;
